@@ -8,5 +8,8 @@ Unofficial Popclip extension to get the title of the selected url with it, works
 2. In the Popclip popup, choose the smart link button
 3. Then past where you want, and you'll get a "page title: url" style text
 
+## More about Popclip Extension
+Check [here](https://github.com/pilotmoon/PopClip-Extensions)
+
 ## License
 Free to use
