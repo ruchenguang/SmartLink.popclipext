@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Extension Identifier</key>
+	<string>win.shinecloud.popclipextz.smartlink</string>
+	<key>Extension Name</key>
+	<string>Smart Link</string>
+	<key>Extension Long Name</key>
+	<string>Smart Link Copy with Better Style</string>
+	<key>Extension Description</key>
+	<string>Choose the link and press mdlink, you will get a better style - like &quot;page title: url&quot;</string>
+	<key>Extension Image File</key>
+	<string>smart_link.png</string>
+	<key>Long Running</key>
+	<true/>
+	<key>Position</key>
+	<string>1.5</string>
+	<key>Requirements</key>
+	<array>
+		<string>copy</string>
+		<string>httpurl</string>
+	</array>
+	<key>Actions</key>
+	<array>
+		<dict>
+			<key>Title</key>
+			<string>Smart Link</string>
+			<key>Image File</key>
+			<string>smart_link.png</string>
+			<key>Shell Script File</key>
+			<string>smart_link.py</string>
+			<key>Script Interpreter</key>
+			<string>/usr/bin/python</string>
+			<key>Regular Expression</key>
+			<string>(?s)^.*$</string>
+			<key>After</key>
+			<string>copy-result</string>
+		</dict>
+	</array>
+	<key>Credits</key>
+	<array>
+		<dict>
+			<key>Name</key>
+			<string>Chenguang Ru</string>
+		</dict>
+	</array>
+	<key>Version</key>
+	<integer>1</integer>
+</dict>
+</plist>
